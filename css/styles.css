@@ -58,7 +58,6 @@ body {
     height: 100vh;
 }
 
-
 .awardsquote {
     background-color: rgba(166, 167, 160, 0.60);
     border-radius: 30px;
@@ -70,6 +69,11 @@ body {
     text-align: center;
     color: #000000;
     font-weight: 700;    
+}
+
+#videobackground {
+    align-content: center;
+    background-color: rgba(166, 167, 160, 0.60);  
 }
 
 .main-nav {
@@ -94,6 +98,8 @@ p {
 
 .picture-page-container {
     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
     justify-content: space-around;
     align-items: center;
     padding-top: 30px;
@@ -125,6 +131,7 @@ form-button {
 } 
 
 @media screen and (max-width: 30rem) {
+    p,
     header,
     main,
     footer,
